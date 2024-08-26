@@ -1,0 +1,21 @@
+# Ignorar arquivos de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar arquivos e diretórios temporários
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignorar arquivos de resultados
+resultados.txt
+
+# Ignorar o diretório do ChromeDriver
+chromedriver/
+
+# Ignorar arquivos do ambiente virtual
+.venv
+env/

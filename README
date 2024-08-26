@@ -1,0 +1,41 @@
+# Extration with Selenium
+
+Este projeto utiliza o Selenium para realizar web scraping no site [Omelete](https://www.omelete.com.br/). O script acessa o site, realiza uma pesquisa pelo termo "Deadpool", e extrai notícias relacionadas. Os resultados são salvos em um arquivo de texto.
+
+## Requisitos
+
+- Python 3.x
+- Selenium
+- ChromeDriver (versão compatível com o seu navegador Chrome)
+
+## Instalação
+
+1. **Clone o repositório:**
+
+   ```
+   git clone <URL_DO_SEU_REPOSITORIO>
+   cd <DIRETORIO_DO_REPOSITORIO>
+Instale as dependências:
+
+pip install selenium
+Baixe o ChromeDriver:
+
+Faça o download do ChromeDriver.
+Extraia o arquivo e coloque o executável no diretório ./chromedriver/.
+Na propria pasta do Projeto
+
+Execute o main:
+
+python main.py
+Verifique o arquivo resultados.txt para ver as notícias extraídas.
+
+Estrutura do Projeto
+main.py: Script principal que realiza o scraping.
+resultados.txt: Arquivo de saída com as notícias extraídas.
+chromedriver/: Diretório contendo o ChromeDriver.
+Observações
+Certifique-se de que a versão do ChromeDriver seja compatível com a versão do navegador Chrome instalado no seu sistema.
+A main está configurado para rodar em modo headless (sem interface gráfica). Para executar com interface gráfica, remova o argumento --headless da configuração do chrome_options.
+
+Licença
+Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
